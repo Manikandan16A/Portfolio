@@ -1,0 +1,142 @@
+/* General styling (applicable to all pages) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #fff;
+}
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+.logo span {
+    color: #7d2ae8;
+}
+.navigation {
+    margin-left: -300px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color: #7d2ae8;
+}
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+section.about {
+    padding: 100px 50px;
+    margin-top: 80px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 1 1 55%;
+    margin-right: 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.about-text h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #555;
+    border-bottom: 2px solid #7d2ae8;
+    display: inline-block;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-text ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+.about-text ul li a {
+    color: #7d2ae8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.about-text ul li a:hover {
+    color: #555;
+}
+
+.about-image {
+    flex: 1 1 40%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+    .about-text {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
