@@ -24,10 +24,10 @@ function initTypewriter() {
   if (!typewriterElement) return;
 
   const roles = [
-    'scalable backend architectures.',
-    'modern full-stack web apps.',
-    'high-speed database systems.',
-    'Python & JavaScript solutions.',
+    'modern full-stack web apps (React & Node.js).',
+    'scalable Python & Django applications.',
+    'high-speed database & SQL systems.',
+    'Data Structures & Algorithmic solutions.',
     'Java & OOP enterprise systems.'
   ];
 
@@ -259,7 +259,7 @@ function initProjectFilters() {
 const projectData = {
   petition: {
     title: 'Petition Digitalizer — Modern Grievance & Tracking Platform',
-    category: 'Full Stack Web Platform (PERN Stack)',
+    category: 'Full Stack Web Platform (React, Node.js, PostgreSQL)',
     date: 'July 2025',
     overview:
       'A comprehensive digital petition management platform built to modernize traditional manual paper-based grievance systems. Followed structured SDLC practices from initial requirements gathering to architecture design, iterative component development, and full validation before deployment.',
