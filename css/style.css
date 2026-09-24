@@ -501,24 +501,33 @@ img {
 
 .typewriter-container {
   font-family: var(--font-mono);
-  font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+  font-size: clamp(0.9rem, 1.35vw, 1.05rem);
   font-weight: 500;
   color: var(--cyan);
   margin-bottom: 1.25rem;
-  min-height: 2.2rem;
+  min-height: 1.8rem;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  line-height: 1.4;
 }
 
 .typewriter-static {
   color: var(--text-muted);
-  margin-right: 0.4rem;
+  margin-right: 0.35rem;
+  font-weight: 400;
+}
+
+.typewriter-dynamic {
+  color: var(--cyan);
+  font-weight: 600;
 }
 
 .typewriter-cursor {
   color: var(--primary-light);
   animation: blinkCursor 0.8s infinite;
-  font-weight: 300;
+  font-weight: 400;
+  margin-left: 2px;
 }
 
 @keyframes blinkCursor {

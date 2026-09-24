@@ -24,11 +24,11 @@ function initTypewriter() {
   if (!typewriterElement) return;
 
   const roles = [
-    'modern full-stack web apps (React & Node.js).',
-    'scalable Python & Django applications.',
-    'high-speed database & SQL systems.',
-    'Data Structures & Algorithmic solutions.',
-    'Java & OOP enterprise systems.'
+    'full stack web applications.',
+    'scalable Python & Django systems.',
+    'high-speed database & SQL architectures.',
+    'efficient algorithmic solutions.',
+    'modern React & Node.js software.'
   ];
 
   let roleIndex = 0;
